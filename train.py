@@ -3,7 +3,7 @@ from openai import OpenAI
 import os
 
 # Initialize the OpenAI client
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="INSERT KEY HERE")
 
 # Load the input-output pairs from the JSON file
 with open("input_output_pairs.json", "r") as file:
